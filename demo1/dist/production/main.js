@@ -1,0 +1,1 @@
+(()=>{"use strict";(()=>{const e=JSON.parse('{"username":"webpack基本使用1"}');console.log("demo1"),console.log(e)})()})();

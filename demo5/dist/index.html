@@ -1,0 +1,204 @@
+<head><script defer src="bundle.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed (from ./node_modules/url-loader/dist/cjs.js):
+  Error: Cannot find module 'file-loader'
+  Require stack:
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\url-loader\dist\index.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\url-loader\dist\cjs.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\loader-runner\lib\loadLoader.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\loader-runner\lib\LoaderRunner.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\NormalModuleFactory.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\Compiler.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\webpack.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\index.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack-cli\lib\webpack-cli.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack-cli\lib\bootstrap.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack-cli\bin\cli.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\bin\webpack.js
+  - C:\Users\LEGION\AppData\Roaming\npm\node_modules\webpack\bin\webpack.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+      at Module.require (internal/modules/cjs/loader.js:961:19)
+      at require (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\v8-compile-cache\v8-compile-c  ache.js:159:20)
+      at Object.loader (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\url-loader\dist\index.j  s:120:20)
+  ModuleBuildError: Module build failed (from ./node_modules/url-loader/dist/cjs.js):
+  Error: Cannot find module 'file-loader'
+  Require stack:
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\url-loader\dist\index.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\url-loader\dist\cjs.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\loader-runner\lib\loadLoader.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\loader-runner\lib\LoaderRunner.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\NormalModuleFactory.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\Compiler.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\webpack.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\index.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack-cli\lib\webpack-cli.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack-cli\lib\bootstrap.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack-cli\bin\cli.js
+  - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\bin\webpack.js
+  - C:\Users\LEGION\AppData\Roaming\npm\node_modules\webpack\bin\webpack.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+      at Module.require (internal/modules/cjs/loader.js:961:19)
+      at require (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\v8-compile-cache\v8-compile-c  ache.js:159:20)
+      at Object.loader (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\url-loader\dist\index.j  s:120:20)
+      at processResult (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\NormalModul  e.js:721:19)
+      at C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\NormalModule.js:827:5
+      at C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\loader-runner\lib\LoaderRunner.js:399:  11
+      at C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\loader-runner\lib\LoaderRunner.js:251:  18
+      at runSyncOrAsync (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\loader-runner\lib\Load  erRunner.js:156:3)
+      at iterateNormalLoaders (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\loader-runner\li  b\LoaderRunner.js:250:2)
+      at Array.<anonymous> (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\loader-runner\lib\L  oaderRunner.js:223:4)
+      at runCallbacks (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\enhanced-resolve\lib\Cac  hedInputFileSystem.js:27:15)
+      at C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\enhanced-resolve\lib\CachedInputFileSy  stem.js:200:4
+      at C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\graceful-fs\graceful-fs.js:123:16
+  Cannot read property 'get' of undefined
+  during rendering of asset asset/resource|C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\url-  loader\dist\cjs.js??ruleSet[1].rules[1]!C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\src\images1.png
+  ChunkRenderError: Cannot read property 'get' of undefined
+  during rendering of asset asset/resource|C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\url-  loader\dist\cjs.js??ruleSet[1].rules[1]!C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\src\images1.png
+      at C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\Compilation.js:3811:23
+      at symbolIterator (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\neo-async\async.js:348  2:9)
+      at timesSync (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\neo-async\async.js:2297:7)
+      at Object.eachLimit (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\neo-async\async.js:3  463:5)
+      at Compilation.createChunkAssets (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack  \lib\Compilation.js:3791:12)
+      at C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\Compilation.js:2555:14
+      at C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\Compilation.js:2687:5
+      at C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\neo-async\async.js:2818:7
+      at done (C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\neo-async\async.js:3522:9)
+      at C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\Compilation.js:2667:7
+  
+  - loader.js:889 Function.Module._resolveFilename
+    internal/modules/cjs/loader.js:889:15
+  
+  - loader.js:745 Function.Module._load
+    internal/modules/cjs/loader.js:745:27
+  
+  - loader.js:961 Module.require
+    internal/modules/cjs/loader.js:961:19
+  
+  - v8-compile-cache.js:159 require
+    [demo5]/[v8-compile-cache]/v8-compile-cache.js:159:20
+  
+  - index.js:120 Object.loader
+    [demo5]/[url-loader]/dist/index.js:120:20
+  
+  - ModuleBuildError: Module build failed (from ./node_modules/url-loader/dist/cjs.js):
+  
+  - Error: Cannot find module 'file-loader'
+  
+  - Require stack:
+  
+  - - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\url-loader\dist\index.js
+  
+  - - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\url-loader\dist\cjs.js
+  
+  - - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\loader-runner\lib\loadLoader.js
+  
+  - - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\loader-runner\lib\LoaderRunner.js
+  
+  - - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\NormalModuleFactory.js
+  
+  - - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\Compiler.js
+  
+  - - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\webpack.js
+  
+  - - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\lib\index.js
+  
+  - - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack-cli\lib\webpack-cli.js
+  
+  - - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack-cli\lib\bootstrap.js
+  
+  - - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack-cli\bin\cli.js
+  
+  - - C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\webpack\bin\webpack.js
+  
+  - - C:\Users\LEGION\AppData\Roaming\npm\node_modules\webpack\bin\webpack.js
+  
+  - loader.js:889 Function.Module._resolveFilename
+    internal/modules/cjs/loader.js:889:15
+  
+  - loader.js:745 Function.Module._load
+    internal/modules/cjs/loader.js:745:27
+  
+  - loader.js:961 Module.require
+    internal/modules/cjs/loader.js:961:19
+  
+  - v8-compile-cache.js:159 require
+    [demo5]/[v8-compile-cache]/v8-compile-cache.js:159:20
+  
+  - index.js:120 Object.loader
+    [demo5]/[url-loader]/dist/index.js:120:20
+  
+  - NormalModule.js:721 processResult
+    [demo5]/[webpack]/lib/NormalModule.js:721:19
+  
+  - NormalModule.js:827 
+    [demo5]/[webpack]/lib/NormalModule.js:827:5
+  
+  - LoaderRunner.js:399 
+    [demo5]/[loader-runner]/lib/LoaderRunner.js:399:11
+  
+  - LoaderRunner.js:251 
+    [demo5]/[loader-runner]/lib/LoaderRunner.js:251:18
+  
+  - LoaderRunner.js:156 runSyncOrAsync
+    [demo5]/[loader-runner]/lib/LoaderRunner.js:156:3
+  
+  - LoaderRunner.js:250 iterateNormalLoaders
+    [demo5]/[loader-runner]/lib/LoaderRunner.js:250:2
+  
+  - LoaderRunner.js:223 Array.<anonymous>
+    [demo5]/[loader-runner]/lib/LoaderRunner.js:223:4
+  
+  - CachedInputFileSystem.js:27 runCallbacks
+    [demo5]/[enhanced-resolve]/lib/CachedInputFileSystem.js:27:15
+  
+  - CachedInputFileSystem.js:200 
+    [demo5]/[enhanced-resolve]/lib/CachedInputFileSystem.js:200:4
+  
+  - graceful-fs.js:123 
+    [demo5]/[graceful-fs]/graceful-fs.js:123:16
+  
+  - Cannot read property 'get' of undefined
+  
+  - during rendering of asset asset/resource|C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\ur    l-loader\dist\cjs.js??ruleSet[1].rules[1]!C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\src\images1.pn    g
+  
+  - ChunkRenderError: Cannot read property 'get' of undefined
+  
+  - during rendering of asset asset/resource|C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\node_modules\ur    l-loader\dist\cjs.js??ruleSet[1].rules[1]!C:\Users\LEGION\Desktop\前端学习\webpack的使用\demo5\src\images1.pn    g
+  
+  - Compilation.js:3811 
+    [demo5]/[webpack]/lib/Compilation.js:3811:23
+  
+  - async.js:3482 symbolIterator
+    [demo5]/[neo-async]/async.js:3482:9
+  
+  - async.js:2297 timesSync
+    [demo5]/[neo-async]/async.js:2297:7
+  
+  - async.js:3463 Object.eachLimit
+    [demo5]/[neo-async]/async.js:3463:5
+  
+  - Compilation.js:3791 Compilation.createChunkAssets
+    [demo5]/[webpack]/lib/Compilation.js:3791:12
+  
+  - Compilation.js:2555 
+    [demo5]/[webpack]/lib/Compilation.js:2555:14
+  
+  - Compilation.js:2687 
+    [demo5]/[webpack]/lib/Compilation.js:2687:5
+  
+  - async.js:2818 
+    [demo5]/[neo-async]/async.js:2818:7
+  
+  - async.js:3522 done
+    [demo5]/[neo-async]/async.js:3522:9
+  
+  - Compilation.js:2667 
+    [demo5]/[webpack]/lib/Compilation.js:2667:7
+  
+  - child-compiler.js:169 
+    [demo5]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+</pre>
